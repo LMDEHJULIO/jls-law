@@ -1,0 +1,77 @@
+img, embed, object, video {
+  max-width: 100%;
+}
+
+li, a {
+  list-style-type: none;
+}
+#container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+  margin: 4px 0px 4px 0px;
+  color: navy;
+}
+
+.hero{
+  height: 200px;
+  background-image: url("../index.jpg");
+  background-size: 100%;
+  background-position: 30% 20%;
+}
+.hero-image{
+  height: 200px;
+}
+
+nav{
+  display: inline-block;
+  width: 100%;
+}
+nav a {
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+nav a, button {
+  min-height: 35px;
+  min-width: 20%;
+}
+
+nav li{
+  margin: 0 auto;
+}
+
+.content-box{
+  background-color: grey;
+  min-height: 375px;
+  padding: 25px;
+}
+
+.content-box h2{
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.main-description{
+  margin: 30px;
+}
+
+.about {
+
+}
+
+.services{
+  display:none;
+}
+
+.something{
+  display: none;
+}
+
+.else{
+  display: none;
+}
